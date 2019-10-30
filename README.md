@@ -1,4 +1,4 @@
-# MultiplicationOfNumbersUsersInput
+# UsersInput
 
 
 
@@ -25,6 +25,31 @@ public class Exercise6
  
 
         Console.WriteLine(numx * numy * numz);
+
+    }
+}
+
+using System;
+
+class Exercise7
+{
+    public static void Main(string[] args)
+    {
+        int num1, num2;
+
+        Console.WriteLine("Input the first number ");
+        num1 = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Input the second number ");
+        num2 = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine(num1 + num2);
+        Console.WriteLine(num1 - num2);
+        Console.WriteLine(num1 * num2);
+        Console.WriteLine(num1 / num2);
+        Console.WriteLine(num1 % num2);
+
+        Console.ReadLine();
 
     }
 }
